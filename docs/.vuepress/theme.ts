@@ -6,11 +6,11 @@ import sidebar from "./sidebar";
 export default hopeTheme({
   //主题选项
   //https://vuepress-theme-hope.github.io/v2/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://semico.github.io/",
 
   author: {
-    name: "清顺",
-    url: "https://newzone.top",
+    name: "bo",
+    url: "https://semico.github.io/",
   },
 
   iconAssets: "iconfont",
@@ -70,21 +70,12 @@ export default hopeTheme({
   //https://vuepress-theme-hope.github.io/v2/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "Category", "Tag", "ReadingTime", "PageView"],
-    name: "清顺",
+    name: "bo",
     avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+    description: "",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      Weibo: "https://weibo.com/u/1992817087",
-      Wechat: "http://tc.seoipo.com/wechat.svg",
-      少数派: [
-        "https://sspai.com/u/zqj05i4v/posts",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
-      RSS: "https://newzone.top/rss.xml",
     },
   },
 
@@ -98,10 +89,11 @@ export default hopeTheme({
     //评论配置
     comment: {
       //部署 Waline：https://waline.js.org/guide/get-started.html
-      provider: "Waline",
-      serverURL: "https://waline.newzone.top",
-      pageview: true,
+      //provider: "Waline",
+      //serverURL: "https://waline.newzone.top",
+      //pageview: true,
       //Waline 等级标签
+      /*
       walineLocales: {
         '/': {
           admin: '盛年不重来，一日难再晨',
@@ -112,7 +104,7 @@ export default hopeTheme({
           level4: '元婴',
           level5: '化神',
         },
-      },
+      },*/
       //Giscus 备用配置
       //provider: "Giscus",
       //repo: "rockbenben/LearnData",
